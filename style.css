@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f3ae7d;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+.recipe-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+.recipe-links li {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+li {
+    margin: 10px 0;
+    text-align: center;
+    list-style:circle;
+}
+
+p {
+    text-align: center;
+    color: #333;
+}
